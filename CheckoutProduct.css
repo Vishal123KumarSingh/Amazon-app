@@ -1,0 +1,34 @@
+.checkoutProduct{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.CP__info{
+    padding-left: 25px;
+}
+
+.checkoutProduct > img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.CP__title{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.CP__info > button {
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+.CP__info .CP__rating{
+    display: flex;
+}
